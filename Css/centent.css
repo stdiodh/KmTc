@@ -1,0 +1,146 @@
+﻿/*centent*/
+
+
+
+@media screen and (min-width:1000px) and (max-width:3000px) {
+
+    #centent {
+        width: auto;
+        height: 1200px;
+        top: 0;
+        left: 0;
+        position: static;
+        background-color: white;
+        position: relative;
+    }
+
+    .centents {
+        padding-top: 250px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .image1 {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 25%;
+        margin-top: 150px;
+        -webkit-transition: 1s;
+        transition: 1s;
+    }
+    .image2 {
+        width: 100px;
+        height: 100px;
+        left: 39%;
+        margin-top: 150px;
+        position: absolute;
+        -webkit-transition: 1s;
+        transition: 1s;
+    }
+   
+
+    .image3 {
+        width: 100px;
+        height: 100px;
+        left: 54%;
+        margin-top: 150px;
+        position: absolute;
+    }
+
+    .image4 {
+        width: 100px;
+        height: 100px;
+        left: 70%;
+        margin-top: 150px;
+        position: absolute;
+    }
+
+    .image-text {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .image1-text {
+        margin-top: 100px;
+        width: 700px;
+        height: 200px;
+        font-size: 16px;
+
+    }
+    .image2-text {
+        width: 700px;
+        height: 200px;
+        font-size: 16px;
+        position: absolute;
+        margin-top: 625px;
+        left: 25%;
+        -webkit-transition: 1s;
+        transition: 1s;
+
+    }
+
+    #image1-img {
+        -webkit-transition: 1s ease;
+        transition: 1s,background-color 2s;
+    }
+    #image1-img:hover {
+        background-color: #9999ff;
+        border-radius: 25%;
+    }
+    #image2-img{
+        -webkit-transition:1s ease;
+        transition:1s,background-color 2s;
+    }
+        #image2-img:hover {
+            background-color: #9999cc;
+            border-radius: 25%;
+        }
+}
+
+    
+@media screen and (max-width:1000px) {
+
+    #centent {
+        width: auto;
+        height: 2500px;
+        top: 0;
+        left: 0;
+        position: static;
+        background-color: white;
+        position: relative;
+    }
+
+    .centents {
+        padding-top: 250px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #image {
+        margin-top: 100px;
+        margin-left: 38%;
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    .image-text {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .image1-text {
+        text-align:center;
+        margin-bottom:100px;
+    }
+    .image2-text {
+        text-align:center;
+        margin-bottom:50px;
+
+    }
+}
+
+
+
+    
+/*centent*/

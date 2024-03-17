@@ -1,0 +1,161 @@
+﻿/*main subjact*/
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+    #main-sj {
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    list-style: none;
+    position: relative;
+}
+
+.awards {
+    width: 30%;
+    margin-left: 18%;
+    color: black;
+    
+}
+    /*http://codejss.tistory.com/11 */
+    .awards li {
+        margin: 20px 0;
+    }
+
+.bar {
+    background: #000000;
+    display: block;
+    height: 5px;
+    border: 1px solid black;
+    overflow: hidden;
+    box-shadow: 0 0 10px #565151;
+    margin-bottom:30px;
+    
+}
+
+    .bar span {
+        height: 5px;
+        float: left;
+        background: #978f8f;
+    }
+
+
+.award-b{
+    width:5px;
+    height:12px;
+    background-color:lightgrey;
+    position:absolute;
+}
+.award-text{
+    margin-left:10px;
+    margin-top:-7px;
+    width:auto;
+
+}
+
+
+.award-num{
+    font-size:2em;
+    font-weight:bold;
+}
+
+.aw-back {
+    width:auto;
+    height:700px;
+    position:relative;
+    left:17%;
+}
+
+
+.end {
+    width: 100%;
+    height: 800px;
+    
+}
+
+.km-end {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height:700px;
+    padding-top:100px;
+
+}
+
+.km-end-back {
+    border: solid 2px black;
+    border-radius: 25px;
+    width: 52.5%;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 57px;
+    position: absolute;
+    background-color:floralwhite;
+}
+
+.end-title {
+    font-size: 43px;
+    position: absolute;
+    left: 47%;
+    background-color: floralwhite;
+    border-radius: 10%
+}
+
+
+.QandA {
+    margin-left: 15%;
+    font-size: 22px;
+    position: absolute;
+    margin-top: 150px;
+    text-align: center;
+    left: 21%;
+    background-color: floralwhite;
+    position: absolute;
+}
+
+.fin-cvs{
+    width:100%;
+    height:1200px;
+    background-color:black;
+}
+
+@media screen and (max-width:1000px) {
+
+
+    .km-end-back {
+        border: solid 2px black;
+        border-radius: 25px;
+        width: 70%;
+        height: 500px;
+        margin-left: 15%;
+        margin-top: 57px;
+        position: absolute;
+        background-color: floralwhite;
+    }
+
+
+
+    .end-title {
+        font-size: 43px;
+        position: absolute;
+        left: 42%;
+        background-color: floralwhite;
+        border-radius: 10%
+    }
+
+
+    .QandA {
+        margin-left: 15%;
+        font-size: 22px;
+        position: absolute;
+        margin-top: 150px;
+        text-align: center;
+        left: 10%;
+        background-color: floralwhite;
+        position: absolute;
+    }
+
+}
+
+
+
+
+    /*main subjact*/

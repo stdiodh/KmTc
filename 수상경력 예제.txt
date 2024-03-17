@@ -1,0 +1,41 @@
+
+    <div id="main-sj">
+        <div class="aw-js">
+            <div class="awards">
+
+                <h1>수상경력</h1>
+
+                <li>
+                    <h3>수상횟수</h3><span class="bar"><span class="award"></span></span>
+                    <div class="award-a">
+                        <p class="award-b">
+                    </div>
+                    <div class="award-text">
+                        수상횟수는 <span class="award-num">총 ""</span>회 입니다.</p>
+                    </div>
+
+                </li>
+
+                <li>
+                    <h3>교내수상</h3><span class="bar"><span class="in-class"></span></span>
+                    <div class="in-a">
+                        <p class="in-text"><span class="in-b"></span></p>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>교외수상</h3><span class="bar"><span class="out-class"></span></span>
+                    <div class="out-a">
+                        <p class="out-text"><span class="out-b"></span></p>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>대회참여</h3><span class="bar"><span class="participation"></span></span>
+                    <div class="part-a">
+                        <p class="part-text"><span class="part-b"></span></p>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </div>
